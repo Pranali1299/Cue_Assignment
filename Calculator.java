@@ -14,7 +14,7 @@ class Calculator {
 
 	public static void sub(int a, int b){
 		
-		System.out.print(a-b);
+		System.out.print(Math.abs(a-b));
 
 	}
 
