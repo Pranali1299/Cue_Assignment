@@ -7,14 +7,12 @@ class Calculator {
 		System.out.print(a+b);
 	}
 	
-	public static void mul(int a, int b){
-		
-		System.out.print(a*b);
-	}
 
 	public static void sub(int a, int b){
 		
+
 		System.out.print(Math.abs(a-b));
+
 
 	}
 
@@ -27,8 +25,6 @@ class Calculator {
 		int b = sc.nextInt();
 		
 		obj.add(a,b);
-
-		mul(a,b);
 
 		sub(a,b);
 
