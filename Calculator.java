@@ -6,7 +6,11 @@ class Calculator {
 		
 		System.out.print(a+b);
 	}
-
+	
+	public static void sub(int a, int b){
+		
+		System.out.print(a-b);
+	}
 
 	public static void main(String[] args){
 	
@@ -17,6 +21,7 @@ class Calculator {
 		int b = sc.nextInt();
 		
 		obj.add(a,b);
-		
+		sub(a,b);
+
 	}
 }
