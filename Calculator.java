@@ -15,6 +15,14 @@ class Calculator {
 
 
 	}
+	
+	public static void divide(int a, int b){
+		
+
+		System.out.print(a/b);
+
+
+	}
 
 	public static void main(String[] args){
 	
@@ -27,6 +35,7 @@ class Calculator {
 		obj.add(a,b);
 
 		sub(a,b);
-
+		
+		divide(a,b);
 	}
 }
